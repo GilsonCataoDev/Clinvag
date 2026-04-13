@@ -45,8 +45,15 @@ function Contato() {
                 </div>
 
                 <div className="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.9346448196943!2d-36.47989892421046!3d-8.885668691125604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7070dfd22d76deb%3A0xe293d9094c16e448!2sClinvag%20-%20Cl%C3%ADnica%20de%20Vacina%C3%A7%C3%A3o.!5e0!3m2!1spt-BR!2sbr!4v1776109267693!5m2!1spt-BR!2sbr" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=..."
+                        width="100%"
+                        height="100%"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />        </div>
             </div>
         </section>
     )

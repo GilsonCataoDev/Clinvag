@@ -55,10 +55,25 @@
   border: 2px dashed rgba(0, 135, 90, 0.2);
 }
 
-.mapa span {
-  font-size: 48px;
+.mapa {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 320px;
 }
 
+@media (max-width: 768px) {
+  .contato {
+    padding: 72px 24px;
+  }
+
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mapa {
+    height: 240px;
+  }
+}
 .mapa p {
   font-size: 14px;
   color: var(--gray);
