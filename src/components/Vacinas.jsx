@@ -2,7 +2,7 @@ import "./Vacinas.css"
 function Vacinas() {
     return (
         <div>
-            <section className="vacinas">
+            <section id="vacinas"  className="vacinas">
                 <div className="section-label">Imunização</div>
                 <h2 className="section-title">Vacinas disponíveis na <em>Clinvag</em></h2>
                 <p className="section-sub">Trabalhamos com as principais vacinas...</p>
