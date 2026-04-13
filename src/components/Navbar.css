@@ -57,3 +57,17 @@
   background: var(--green-dark);
   transform: translateY(-1px);
 }
+@media (max-width: 768px) {
+  .navbar {
+    padding: 16px 24px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .nav-cta {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

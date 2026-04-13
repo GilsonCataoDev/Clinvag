@@ -46,3 +46,12 @@
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
 }
+@media (max-width: 768px) {
+  .como-funciona {
+    padding: 72px 24px;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
