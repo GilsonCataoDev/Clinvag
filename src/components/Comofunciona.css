@@ -1,0 +1,48 @@
+.como-funciona {
+  padding: 100px 48px;
+  background: var(--green-dark);
+}
+
+.como-funciona .section-label {
+  color: var(--teal);
+}
+
+.como-funciona .section-title {
+  color: white;
+}
+
+.como-funciona .section-sub {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.step {
+  padding: 36px 28px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  position: relative;
+}
+
+.step-icon {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.step h4 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.step p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}

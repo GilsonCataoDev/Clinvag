@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green: #00875A;
+  --green-dark: #005C3B;
+  --green-light: #E6F6F0;
+  --teal: #00B88A;
+  --coral: #FF5C38;
+  --white: #FFFFFF;
+  --off-white: #F7FAF8;
+  --gray: #6B7B74;
+  --dark: #0F2418;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--dark);
+  background: var(--white);
+  overflow-x: hidden;
+}

@@ -1,0 +1,91 @@
+.vacinas {
+  padding: 100px 48px;
+  background: var(--white);
+}
+
+.section-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+  color: var(--dark);
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.section-title em {
+  font-style: italic;
+  color: var(--teal);
+}
+
+.section-sub {
+  font-size: 16px;
+  color: var(--gray);
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 60px;
+}
+
+.vacinas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.vacina-card {
+  border: 1.5px solid rgba(0, 135, 90, 0.12);
+  border-radius: 20px;
+  padding: 28px;
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.vacina-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--green));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.vacina-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 135, 90, 0.12);
+  border-color: var(--teal);
+}
+
+.vacina-card:hover::before {
+  transform: scaleX(1);
+}
+
+.vacina-emoji {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.vacina-card h4 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+
+.vacina-card p {
+  font-size: 13px;
+  color: var(--gray);
+  line-height: 1.6;
+}
