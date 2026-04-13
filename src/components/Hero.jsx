@@ -1,7 +1,7 @@
 import "./Hero.css"
 function Hero() {
     return (
-        <div className="hero">
+        <div id="hero" className="hero">
             <div className="hero-label">Clínica de Vacinação em Garanhuns </div>
             <h1>Proteja quem você ama com cuidado.</h1>
 

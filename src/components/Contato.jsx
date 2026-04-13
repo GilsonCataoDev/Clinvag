@@ -2,7 +2,7 @@ import './Contato.css'
 
 function Contato() {
     return (
-        <section className="contato">
+        <section id="contato" className="contato">
             <div className="section-label">Onde estamos</div>
             <h2 className="section-title">Venha nos <em>visitar</em></h2>
             <p className="section-sub">Espaço moderno e acolhedor no coração de Garanhuns.</p>

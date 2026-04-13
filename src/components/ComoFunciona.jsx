@@ -2,7 +2,7 @@ import "./Comofunciona.css"
 function ComoFunciona() {
     return (
         <div>
-            <section className="como-funciona">
+            <section id='como-funciona' className="como-funciona">
                 <div className="section-label">PROCESSO</div>
                 <h2 className="section-title">Como Funciona?</h2>
                 <p className="section-sub">Simples, rápido e sem burocracia. Em poucos passos você e sua família estão protegidos.</p>
